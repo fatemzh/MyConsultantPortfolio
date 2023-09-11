@@ -4,6 +4,7 @@ import Home from "../src/Component/Hero/Home"
 import Features from "../src/Component/Features/Features"
 import Portfolio from "../src/Component/Portfolio/Portfolio"
 import Resume from "../src/Component/Resume/Resume"
+import Blog from "../src/Component/Blog/Blog"
 import "./App.css"
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Features />
       <Portfolio />
       <Resume />
+      <Blog/>
     </>
   )
 }
