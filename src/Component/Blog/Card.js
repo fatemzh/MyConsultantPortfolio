@@ -13,7 +13,7 @@ const Card = (props) => {
           <img src={props.image} alt="" onClick={toggleModal} />
         </div>
         <div className="category d_flex">
-          <span onClick={toggleModal}>{props.date}</span>
+          <span onClick={toggleModal}>{props.date}</span>         
         </div>
         <div className="title">
           <h2 onClick={toggleModal}>{props.title_one}</h2>
@@ -25,32 +25,29 @@ const Card = (props) => {
 
       {/* POPUP MODAL */}
       {modal && (        
-        <div className="modal">
+        <div className="modal modal-blog">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content d_flex">
             <div className="modal-img left">
               <img src={props.image} alt="" />
             </div>
             <div className="modal-text right">
-              <span>{props.date}</span>
+              <span>{props.date} </span>
               <h1>{props.title_one} </h1>
               <p>{props.desc_one} </p>
-
               <h1>{props.title_two} </h1>
               <p>{props.desc_two} </p>
-
               <h1>{props.title_three} </h1>
               <p>{props.desc_three} </p>
-
-
+              
                 <button className="close-modal btn_shadow" onClick={toggleModal}>
                   <i className="fas fa-times"></i>
                 </button>
               </div>
             </div>
-          </div>
+        </div>
       )}
-    </>
+      </>
   );
 };
 
