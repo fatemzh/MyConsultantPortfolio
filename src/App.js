@@ -5,6 +5,7 @@ import Features from "../src/Component/Features/Features"
 import Portfolio from "../src/Component/Portfolio/Portfolio"
 import Resume from "../src/Component/Resume/Resume"
 import Blog from "../src/Component/Blog/Blog"
+import Contact from "../src/Component/Contact/Contact"
 import "./App.css"
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Portfolio />
       <Resume />
       <Blog/>
+      <Contact />
     </>
   )
 }

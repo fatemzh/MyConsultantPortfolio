@@ -21,3 +21,8 @@
     width: 80%;
     height: 60%;
 }
+
+.blog_contact .right,
+.blog_contact .left {
+    margin: 0 25px 0 0;
+}
