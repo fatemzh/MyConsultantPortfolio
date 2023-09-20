@@ -149,3 +149,24 @@
 .modal-text button.close-modal i {
     margin: 0;
 }
+
+/* popups */
+@media (max-width: 768px) {
+    .modal,
+    .overlay {
+        overflow: scroll;
+    }
+
+    .modal .modal-img{
+        margin: 50px 0;
+    }
+
+    .modal-content{
+        flex-direction: column-reverse;
+    }
+
+    .modal .right,
+    .modal .left{
+        padding: 0;
+    }
+}
