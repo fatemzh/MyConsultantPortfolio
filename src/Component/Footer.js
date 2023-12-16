@@ -7,7 +7,7 @@ const Footer = () => {
      <footer>
         <div className="container text-center top">
             <div className="img">
-                <img src={logo1} alt="" />
+                <img src={logo1} alt="" /> 
             </div>
             <p>2023. All rights reserved by Fatem Dellamaison</p>
         </div>
