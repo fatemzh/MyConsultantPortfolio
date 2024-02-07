@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/sunil-portfolio/static/css/main.b825f144.css",
+    "main.js": "/sunil-portfolio/static/js/main.35f94c1d.js",
+    "static/js/787.8d7102b0.chunk.js": "/sunil-portfolio/static/js/787.8d7102b0.chunk.js",
+    "static/media/hero.png": "/sunil-portfolio/static/media/hero.caa3d5e2872e84d77cf2.png",
+    "static/media/contact1.png": "/sunil-portfolio/static/media/contact1.8ddfbfd11798f881db54.png",
+    "static/media/jpg": "/sunil-portfolio/static/media/4c3df25417853196a6ac88b28b63dccb.489991cdb54393d25180.jpg",
+    "index.html": "/sunil-portfolio/index.html",
+    "main.b825f144.css.map": "/sunil-portfolio/static/css/main.b825f144.css.map",
+    "main.35f94c1d.js.map": "/sunil-portfolio/static/js/main.35f94c1d.js.map",
+    "787.8d7102b0.chunk.js.map": "/sunil-portfolio/static/js/787.8d7102b0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b825f144.css",
+    "static/js/main.35f94c1d.js"
+  ]
+}
