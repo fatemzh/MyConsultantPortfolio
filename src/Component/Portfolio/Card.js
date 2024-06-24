@@ -14,10 +14,6 @@ const Card = (props) => {
         </div>
         <div className="category d_flex">
           <span onClick={toggleModal}>{props.category}</span>
-          <label>
-            <i className="far fa-heart"></i>
-            {props.totalLike}
-          </label>
         </div>
         <div className="title">
           <h2 onClick={toggleModal}>{props.title}</h2>
@@ -28,7 +24,7 @@ const Card = (props) => {
       </div>
 
       {/* POPUP MODAL */}
-      {modal && (        
+      {modal && (
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content d_flex">
@@ -39,31 +35,41 @@ const Card = (props) => {
               <span>Featured - Design</span>
               <h1>{props.title} </h1>
               <p>
-                I use animation as a third dimension by which to simplify
-                experiences and kuiding thro each and every interaction. I’m not
-                adding motion just to spruce things up, but doing it in ways that.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
               <p>
-                I use animation as a third dimension by which to simplify
-                experiences and kuiding thro each and every interaction. I’m not
-                adding motion just to spruce things up, but doing it in ways that.
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
+                sit amet, consectetur, adipisci velit, sed quia non numquam eius
+                modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                voluptatem.
               </p>
               <div className="button f_flex mtop">
                 <button className="btn_shadow">
-                  LIKE THIS <i className="far fa-thumbs-up"></i>
+                  SEE MORE <i className="far fa-chevron-right"></i>
                 </button>
-                <button className="btn_shadow">
-                  VIEW PROJECT <i className="far fa-chevron-right"></i>
-                </button>
-                <button className="close-modal btn_shadow" onClick={toggleModal}>
+                <button
+                  className="close-modal btn_shadow"
+                  onClick={toggleModal}
+                >
                   <i className="fas fa-times"></i>
                 </button>
               </div>
             </div>
           </div>
-        </div>)
-      }
-      
+        </div>
+      )}
     </>
   );
 };

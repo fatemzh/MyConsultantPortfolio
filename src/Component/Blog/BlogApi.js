@@ -1,38 +1,48 @@
-import image from '../../pic/4c3df25417853196a6ac88b28b63dccb.jpg'
+import image from "../../pic/4c3df25417853196a6ac88b28b63dccb.jpg";
 
 const BlogApi = [
   {
     id: 1,
     image: image,
     date: "2 May, 2021",
-    title_one: "Digital Marketo to Their New Office.",
-    desc_one: "Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-    title_two: "Nobis eleifend option conguenes.",
-    desc_two: "Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id. Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.",
-    title_three: "Mauris tempor, orci id pellentesque.",
-    desc_three: "Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.",
+    title_one: "Global E-commerce Platform Deployment",
+    desc_one:
+      "Led the architecture and deployment of a global e-commerce platform for a leading retail company, integrating multiple payment gateways and optimizing for high traffic volumes.",
+    title_two: "Hybrid Cloud Infrastructure Implementation",
+    desc_two:
+      "Designed and implemented a hybrid cloud infrastructure for a multinational corporation, combining on-premises data centers with cloud services to enhance operational flexibility.",
+    title_three: "Data Center Consolidation and Optimization",
+    desc_three:
+      "Managed the consolidation of multiple data centers into a single, optimized facility for a financial services company, improving efficiency and reducing costs.",
   },
   {
     id: 2,
     image: image,
     date: "28 April, 2021",
-    title_one: "The services provide for design ",
-    desc_one: "Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-    title_two: "Nobis eleifend option conguenes.",
-    desc_two: "Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id. Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.",
-    title_three: "Mauris tempor, orci id pellentesque.",
-    desc_three: "Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.",
+    title_one: "Automated Disaster Recovery System",
+    desc_one:
+      "Architected and deployed an automated disaster recovery system for a healthcare provider, ensuring rapid recovery and minimal downtime in case of system failures.",
+    title_two: "Microservices-based Application Architecture",
+    desc_two:
+      "Designed a microservices-based architecture for a logistics company’s core application, improving scalability and maintainability.",
+    title_three: "IT Infrastructure Upgrade for Smart Manufacturing",
+    desc_three:
+      "Developed and executed a technology roadmap for upgrading the IT infrastructure of a manufacturing plant to support smart manufacturing initiatives.",
   },
   {
     id: 3,
     image: image,
     date: "20 Jun, 2021",
-    title_one: "Mobile app landing design & app maintain.",
-    desc_one: "Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-    title_two: "Nobis eleifend option conguenes.",
-    desc_two: "Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id. Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.",
-    title_three: "Mauris tempor, orci id pellentesque.",
-    desc_three: "Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.",
+    title_one: "Enterprise System Design",
+    desc_one:
+      "Created comprehensive IT system architectures for large-scale enterprises, ensuring scalability and robustness to support business growth.",
+    title_two: "Technology Roadmapping",
+    desc_two:
+      "Developed strategic IT roadmaps that align with business objectives, guiding the adoption of new technologies and the phasing out of legacy systems.",
+    title_three: "Cloud Integration Planning",
+    desc_three:
+      "Designed cloud integration strategies that seamlessly incorporate cloud services into existing IT infrastructures, enhancing flexibility and efficiency.",
   },
-]
-export default BlogApi
+];
+
+export default BlogApi;

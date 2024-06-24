@@ -37,8 +37,7 @@ const Contact = () => {
       <section className='Contact' id='contact'>
         <div className='container top'>
           <div className='heading text-center'>
-            <h4>CONTACT</h4>
-            <h1>Contact With Me</h1>
+            <h1>Contact me</h1>
           </div>
 
           <div className='content d_flex'>
@@ -48,12 +47,12 @@ const Contact = () => {
                   <img src={contact1} alt='' />
                 </div>
                 <div className='details'>
-                  <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
+                  <h1>Anne Delottroit</h1>
+                  <p>IT Infrastructure Consultant</p>
+                  <p>I am available for freelance work, expertise and consulting .</p> <br />
                   <p>Phone: +01234567890</p>
                   <p>Email: admin@example.com</p> <br />
-                  <span>FIND WITH ME</span>
+                  <span>MY SOCIALS</span>
                   <div className='button f_flex'>
                     <button className='btn_shadow'>
                       <i className='fab fa-facebook-f'></i>

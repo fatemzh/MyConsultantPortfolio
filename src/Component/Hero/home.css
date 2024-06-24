@@ -48,6 +48,7 @@
   width: 20px;
   height: 20px;
 }
+
 .hero .left {
   margin-right: 10%;
 }
@@ -59,7 +60,7 @@
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
-  height: 580px;
+  height: 500px;
   width: 510px;
   margin-top: 20%;
 }
@@ -67,8 +68,9 @@
   position: absolute;
   top: 0;
   right: 10%;
-  width: 510px;
+  width: 800px;
 }
+
 @media (max-width: 768px) {
   .hero .right,
   .hero .left {
