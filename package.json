@@ -2,20 +2,16 @@
   "name": "template-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fatemzh.github.io/sunil-portfolio/",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-script": "^2.0.5",
     "react-scripts": "^5.0.1",
     "react-simple-typewriter": "^5.0.1",
-    "web-vitals": "^2.1.4",
-    "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start --openssl-legacy-provider",
